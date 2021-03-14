@@ -4,7 +4,7 @@
 int main()
 {
 	using namespace Graph_lib;
-	Simple_window win{Point{100,100},600,400,"Az ablakom"};
+	Simple_window win{Point(100,100),600,400,"Az ablakom"};	
 
 	Axis xa {Axis::x, Point(20,300),280,10,"X tengely"};
 	Axis ya {Axis::y, Point(20,300),280,10,"Y tengely"};
